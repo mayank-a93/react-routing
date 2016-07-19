@@ -1,0 +1,27 @@
+{
+  "name": "react-routing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayank-a93/react-routing.git"
+  },
+  "author": "Mayank Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayank-a93/react-routing/issues"
+  },
+  "homepage": "https://github.com/mayank-a93/react-routing#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-router": "^2.5.2",
+    "watchify": "^3.7.0"
+  }
+}
